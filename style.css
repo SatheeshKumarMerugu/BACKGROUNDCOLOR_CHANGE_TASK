@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: white;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  height: 90vh;
+  background-color: gray;
+  transition: background ease 5s;
+}
+input {
+  border: 2px solid blue;
+  border-radius: 5px;
+  /* background-color: blue; */
+}
